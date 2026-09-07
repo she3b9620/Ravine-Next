@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-ravine-copper: #C47A52;
+  --color-ravine-petrol: #183F46;
+  --color-ravine-obsidian: #090909;
+  --color-ravine-charcoal: #151719;
+  --color-ravine-ivory: #F1E9DC;
+  --color-ravine-stone: #9A9690;
+  --color-ravine-umber: #70402F;
+  --color-ravine-dusty: #D49A78;
+}
+
+:root { color-scheme: dark; background: #090909; }
+html { background: #090909; }
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #090909;
+  font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+* { box-sizing: border-box; }
+::selection { background: #C47A52; color: #090909; }
